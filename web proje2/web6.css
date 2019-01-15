@@ -1,0 +1,116 @@
+body{
+   background-color:wheat;
+}
+.ustorta {
+    height: 28px;
+    width: 809px;
+    margin-left: 500;
+    margin-top: -54px;
+    background-color: black;
+    padding: 13px;
+    margin-left: 500px;
+}
+  
+  *{margin: 0;    padding: 0;    border: 0;    outline: 0;    list-style:none; text-decoration:none;}
+  .header-menu{
+    margin-top: -44px;
+    margin-left: 550px;
+    width: 782px;
+    height: 40px;
+    float: left;
+    background: black;
+    position: relative;
+    font-family: 'Lobster', cursive;
+}
+  
+  .header-menu a{
+      width:auto;
+      height:35px;
+      float:left;
+      font-size:12px;
+      color:white;
+      padding-left:18px;
+      padding-right:18px;
+      border-right:solid 1px white;
+      line-height:35px;
+      }
+      
+  .header-menu a:hover{
+      background:url(img/cizgi.png) right no-repeat ;
+      }
+  .header-menu  li{
+      width:auto;
+      height:46px;
+      float:left;
+      position:relative;
+      }
+  
+  .header-menu  ul li ul{
+      width:180px;
+      height:auto;
+      float:left;
+      position:absolute;
+      background:#6c6b6b;
+      top:35px;
+      left:1px;
+      z-index:1;
+      display:none;
+      }
+  
+  .header-menu  ul li ul a{
+      width:163px;
+      height:30px;
+      line-height:30px;
+      float:left;
+      padding:0 0 0 17px;
+      border-top: dashed 1px gray;
+      background:none;
+      }
+  
+  .header-menu  ul li ul li {
+      height:30px;
+      line-height:30px;
+      }
+  
+  
+  
+  .header-menu  li:hover >  ul{
+      display: block;
+      }
+  
+  
+  
+  .header-menu  ul li ul li ul{
+      width:180px;
+      height:auto;
+      float:left;
+      position:absolute;
+      background:#6c6b6b;
+      top:0px;
+      left:180px;
+      z-index:1;
+      display:none;
+      }
+      .kutu1 {
+        width: 410px;
+        height: 300px;
+        background-color: coral;
+        margin-left: 850px;
+        margin-top: 97px;
+        background-image: url(r20.jpg);
+    }
+    .yazilar{
+        
+            margin-top: -325px;
+            margin-left: 40px;
+    }
+    .yazi1{
+        margin-top: 50px;
+            margin-left: 40px;
+    }
+    .yazi2{
+        font-family: 'Merriweather', serif;
+
+        margin-top: 50px;
+            margin-left: 40px;
+    }

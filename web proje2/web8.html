@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <body>
+
+            <link href="web8.css" type="text/css" rel="stylesheet" />
+            <div class="solustresim"><a href="web.html"><img src="https://i.hizliresim.com/Ba6yJj.jpg"></a></div>
+            <div class="header-menu">
+               <ul>
+                   <li><a href="web.html">ANA SAYFA</a></li>
+                   <li><a href="#">KARTVİZİTLER</a>
+                        <ul>
+                            <li><a href="web5.html" >ECZANE</a></li>
+                            <li><a href="web10.html">BİLİŞİM</a></li>
+                           <li><a href="web9.html">KUAFÖR</a></li>
+                           <li><a href="web11.html">MOBİLYA</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="web6.html">HAKKIMIZDA</a></li>
+                   <li><a href="web8.html" >KAYDOL</a></li>
+                   <li><a href="web7.html" >OTURUM AÇ</a></li>
+               </ul>
+           </div>
+           <div class="ustorta"></div>
+           <div class="anamenu"></div>
+           <div class="yazı"><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">Kayıt Ol</div>
+           <input type="text" class="textbox1" id="kullaniciAdi" placeholder="kullanici adi" size="15" />
+           <input type="password" class="textbox2" placeholder="sifre" id="sifre" size="15" />
+           <input type="password" class="textbox3" size="15" />
+           <input type="text" class="textbox4" size="15" />
+           <input type="text" class="textbox5" size="15" />
+           <input type="text" class="textbox6" size="15" />
+           <div class="yazı1"><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">Kullanıcı Adı:</div>
+           <div class="yazı2"><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">Şifre:</div>
+           <div class="yazı3"><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">Şifre Doğrula:</div>
+           <div class="yazı4"><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">E-Posta:</div>
+           <div class="yazı5"><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">İsim:</div>
+           <div class="yazı6"><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">Soyisim:</div>
+           
+          
+           <input type="checkbox" class="benıhatırla" value="yes">Erkek</input>
+           <input type="checkbox" class="benıhatırla2" value="yes">Kadın</input>
+           <input type="checkbox" class="benıhatırla3" value="yes" color="red">Diğer</input>
+           
+
+           <p><a class="btn1" href="web7.html" onclick="myFunction()">Kayıt Ol</a></p>
+           <script>
+            function myFunction() {
+              alert("Başarıyla Kayıt Oldunuz Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz");
+              localStorage.setItem('kullaniciAdi',document.getElementById('kullaniciAdi').value);
+              localStorage.setItem('sifre',document.getElementById('sifre').value);
+            }
+            </script>
+
+
+
+
+
+
+
+        </body>
+    </head>
+</html>

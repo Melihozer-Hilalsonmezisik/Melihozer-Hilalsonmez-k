@@ -1,0 +1,225 @@
+.solustresim{
+ 
+    height: 50px;
+    width: 500px; 
+  }
+  *{margin: 0;    padding: 0;    border: 0;    outline: 0;    list-style:none; text-decoration:none;}
+.header-menu{
+    margin-top:-40px;
+    margin-left: 550px;
+    width:782px;
+    height:40px;
+    float:left;
+    background:black;
+    position:relative;
+    font-family:'Lobster', cursive;
+    }
+
+.header-menu a{
+    width:auto;
+    height:35px;
+    float:left;
+    font-size:12px;
+    color:white;
+    padding-left:18px;
+    padding-right:18px;
+    border-right:solid 1px white;
+    line-height:35px;
+    }
+    
+.header-menu a:hover{
+    background:url(img/cizgi.png) right no-repeat ;
+    }
+.header-menu  li{
+    width:auto;
+    height:46px;
+    float:left;
+    position:relative;
+    }
+
+.header-menu  ul li ul{
+    width:180px;
+    height:auto;
+    float:left;
+    position:absolute;
+    background:#6c6b6b;
+    top:35px;
+    left:1px;
+    z-index:1;
+    display:none;
+    }
+
+.header-menu  ul li ul a{
+    width:163px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    padding:0 0 0 17px;
+    border-top: dashed 1px gray;
+    background:none;
+    }
+
+.header-menu  ul li ul li {
+    height:30px;
+    line-height:30px;
+    }
+
+
+
+.header-menu  li:hover >  ul{
+    display: block;
+    }
+
+
+
+.header-menu  ul li ul li ul{
+    width:180px;
+    height:auto;
+    float:left;
+    position:absolute;
+    background:#6c6b6b;
+    top:0px;
+    left:180px;
+    z-index:1;
+    display:none;
+    }
+    .ustorta{
+        height: 24px;
+        width: 809px;
+        margin-left:500;
+        margin-top:-50px;
+        background-color:black;
+        padding: 13px;
+      }
+      .anaresım{
+          background-image: url(s2r2.jpg);
+          height: 600px;
+          width: 1335px;
+      }
+   .renk{
+       margin-left:500px;
+       margin-top:-450px;
+       width: 300px;
+   }
+   .kutu1{
+       margin-left:327px;
+       width: 120px;
+       color:black;
+       margin-top:-400px;
+       font-family:'Lobster', cursive;
+   }
+   .kutu2{
+    margin-left:302px;
+    width: 150px;
+    color:black;
+    margin-top:-291px;
+    font-family:'Lobster', cursive;
+}
+.kutu3{
+    margin-left:302px;
+    width: 150px;
+    color:black; 
+    margin-top:20px;
+    font-family:'Lobster', cursive;
+}
+   .metinkutusu{
+       margin-left: 450px;
+       margin-top:-20px;
+   }
+   .metinkutusu .yazı{
+        width: 400px;
+        height: 20px;
+   }
+   .metinkutusu2{
+    margin-left: 450px;
+    margin-top:20px;
+}
+.metinkutusu2 .yazı{
+     width: 400px;
+     height: 20px;
+}
+.metinkutusu3{
+    margin-left: 450px;
+    margin-top:20px;
+}
+.metinkutusu3 .yazı{
+     width: 400px;
+     height: 100px;
+     padding:auto;
+}
+  
+   .anamenu{
+    margin-top:0px;
+    height: 400px;
+    width: 500px;
+  
+  }
+   .btn {
+    
+    background-color:;
+    border: 1px solid white;
+    border-radius:8px;
+    color: wheat;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    font-family:Verdana;
+    margin: 4px 2px;
+    transition:all 0.4s;	
+    -webkit-transition:all 0.4s;
+    -moz-transition:all 0.4s;
+      -o-transition:all 0.4s;
+      margin-top:-100px;
+      margin-left:530px;
+      font-family: 'Courgette', cursive;
+    }
+    .btn:hover{
+    
+    background-color: #da9813;
+    color:white;
+      }
+    .geçme{
+    padding-left: 50px;
+       margin-top:-300px;
+margin-left:400px;
+border:1px solid black;
+width: 400px;
+height: 50px;
+border-radius: 5px 500px 500px 5px;
+box-sizing: border-box;
+-webkit-box-sizing:border-box;
+background-color: white;
+line-height:1.1;
+position:relative;
+
+   }.geçme2{
+    margin-top:-50px;
+margin-left:50px;
+border:1px solid black;
+width: 400px;
+height: 50px;
+border-radius: 5px 500px 500px 5px;
+box-sizing: border-box;
+-webkit-box-sizing:border-box;
+background-color: coral;
+line-height:1.1;
+position:relative;
+
+}
+.geçme3{
+    padding-left: 50px;
+       margin-top:-225px;
+margin-left:750px;
+border:1px solid black;
+width: 450px;
+height: 50px;
+border-radius: 5px 500px 500px 5px;
+box-sizing: border-box;
+-webkit-box-sizing:border-box;
+background-color: white;
+line-height:1.1;
+position:relative;
+
+   }
